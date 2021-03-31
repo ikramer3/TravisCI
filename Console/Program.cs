@@ -43,7 +43,7 @@ namespace TravisCILab
                         default:
                             throw new ArgumentException("You did not select a valid option!");
                     }
-
+                   
                     var x = GetInput("Enter x: ");
                     var y = GetInput("Enter y: ");
                     var result = operation(x, y);
